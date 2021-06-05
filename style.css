@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* h1 font-family: 'Lato', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container .head{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   padding: 0px 50px;
+   z-index:100000 ;
+}
+.container .head img{
+    width: 13%;
+}
+.container .head a{
+    color: white;
+    text-decoration: none;
+    background-color: #e50914;
+    padding: 8px 18px;
+    border-radius: 5px;
+}
+.banner{
+     width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .fit{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    object-fit: cover;
+}
+.banner:before{
+    content:"";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    background: linear-gradient(to bottom, #000),transparent;
+}
+.banner:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 400%;
+    z-index: 1;
+    background: linear-gradient(to top, #000),transparent;
+}
+.banner .box{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10000;
+
+}
+.banner .box .heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner .box .heading h1{
+    font-size:65px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: 800;
+}
+.banner .box .heading h5{
+    font-size:25px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    padding: 1rem 0;
+}
+.banner .box .heading p{
+    font-size:20px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 600;
+    padding: 15px 0;  
+    padding-bottom: 20px;
+}
+.banner .box .search input{
+   height: 70px;
+   width: 580px;
+   padding-left: 20px;
+   font-size: 16px;
+   outline: none;
+   align-items: center;
+   border-radius: 2px; 
+}
+.banner .box .search a{
+    background-color: rgb(240, 8, 8);
+    text-transform: uppercase;
+    text-decoration: none;
+    align-items: center;
+    border-radius: 2px;
+    padding:20px 12px;
+    color: white;
+    height: 70px;
+    width: 200px;
+    letter-spacing: 0.2px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    font-weight: 800;
+}
+.banner .box .search a:hover{
+    background-color: red;
+}
+.banner .box .search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
