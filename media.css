@@ -177,5 +177,64 @@
     .part2 .img img{
         width: 100%;
     }
+
+    
+.banner2{
+    border-bottom: 0.5rem solid rgb(71, 71, 71);
+}
+.banner2 .box{
+    margin: 1rem 0;
+
+}
+.banner2 .box .heading{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.banner2 .box .heading p{
+   font-size:15px;
+   font-family: 'Open Sans', sans-serif;
+   color: white;
+   font-weight: 300;
+   padding: 5px 0;  
+   padding-bottom: 20px;
+}
+.banner2 .box .search input{
+    height: 40px;
+    width: 180px;
+  padding-left: 13px;
+  font-size: 12px;
+  outline: none;
+  align-items: center;
+  border-radius: 2px; 
+}
+.banner2 .box .search a{
+   background-color: rgb(240, 8, 8);
+   text-transform: uppercase;
+   text-decoration: none;
+   align-items: center;
+   border-radius: 2px;
+   padding:12px 5px;
+   color: white;
+   height: 40px;
+   width: 100px;
+   letter-spacing: 0.2px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 12px;
+   font-weight: 600;
+}
+.banner2 .box .search a:hover{
+   background-color: red;
+}
+.banner2 .box .search{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
     
 }
