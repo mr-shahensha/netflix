@@ -1,0 +1,117 @@
+@media screen and (max-width:600px)
+{
+    .container .head{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       width: 100%;
+       padding: 10px;
+       z-index:100000 ;
+    }
+    .container .head img{
+        width: 25%;
+    }
+    .container .head a{
+        color: white;
+        text-decoration: none;
+        background-color: #e50914;
+        padding: 8px 18px;
+        border-radius: 5px;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .banner{
+        width: 100%;
+        margin-top: -100px;
+        background-size: cover;
+        align-items: center;
+        overflow-x: hidden;
+        justify-content: center;
+        display: flex;
+        background-position: center;
+        min-height: 810px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url(https://assets.nflxext.com/ffe/siteui/vlv3/a1dc92ca-091d-4ca9-a05b-8cd44bbfce6a/f9368347-e982-4856-a5a4-396796381f28/RS-en-20191230-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    }
+    .banner .fit{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        object-fit: cover;
+    }
+    
+    .banner .box{
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        z-index: 10000;
+    
+    }
+    .banner .box .heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .banner .box .heading h1{
+        font-size:35px;
+        font-family: 'Lato', sans-serif;
+        color: white;
+        font-weight: 800;
+    }
+    .banner .box .heading h5{
+        font-size:17px;
+        font-family: 'Lato', sans-serif;
+        color: white;
+        padding: 1rem 0;
+    }
+    .banner .box .heading p{
+        font-size:10px;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-weight: 500;
+        padding: 15px 0;  
+        padding-bottom: 20px;
+    }
+    .banner .box .search input{
+       height: 40px;
+       width: 150px;
+       padding-left: 20px;
+       font-size: 16px;
+       outline: none;
+       align-items: center;
+       border-radius: 2px; 
+    }
+    .banner .box .search a{
+        background-color: rgb(240, 8, 8);
+        text-transform: uppercase;
+        text-decoration: none;
+        align-items: center;
+        border-radius: 2px;
+        padding:13px 12px;
+        color: white;
+        height: 40px;
+        width: 120px;
+        letter-spacing: 0.2px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+        font-weight: 800;
+    }
+    .banner .box .search a:hover{
+        background-color: red;
+    }
+    .banner .box .search{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
