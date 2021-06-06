@@ -188,6 +188,85 @@ body{
     width: 70%;
 }
 
+
+/* ol */
+
+
+.question{
+    width: 100%;
+    min-height: 950px;
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+
+}
+.question h1{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quest{
+    width: 51%;
+    min-height: 75px;
+    background-color: #303030;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    margin: 5px 0;
+}
+.textit{
+    width: 47%;
+    min-height: 250px;
+    max-height: 300px;
+    font-size: 25px;
+    padding: 30px;
+    background-color: #303030;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    
+    margin: .5px 0; 
+}
+
+.quest .textbox{
+    font-family: 'Open Sans', sans-serif;  
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    font-size: 25px;
+    margin: 0 30px;
+    word-spacing: 5px;
+    text-align: left;
+
+}
+.quest i{
+    margin: 0 30px;
+    font-size: 25px;
+  
+    color: white;
+}
+
+/* ol */
 .banner2{
     border-bottom: 0.5rem solid rgb(71, 71, 71);
 }
