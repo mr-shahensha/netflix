@@ -267,9 +267,6 @@ body{
 }
 
 /* ol */
-.banner2{
-    border-bottom: 0.5rem solid rgb(71, 71, 71);
-}
 .banner2 .box{
     margin: 4rem 0;
 
@@ -335,6 +332,7 @@ body{
    align-items: center;
 }
 .developer p{
+    
     padding: 9px 5px;
     text-align: center;
     font-size: 20px;
