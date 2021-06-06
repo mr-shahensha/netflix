@@ -32,7 +32,7 @@
         justify-content: center;
         display: flex;
         background-position: center;
-        min-height: 810px;
+        min-height: 610px;
         background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
         url(https://assets.nflxext.com/ffe/siteui/vlv3/a1dc92ca-091d-4ca9-a05b-8cd44bbfce6a/f9368347-e982-4856-a5a4-396796381f28/RS-en-20191230-popsignuptwoweeks-perspective_alpha_website_large.jpg);
     }
@@ -47,7 +47,7 @@
     
     .banner .box{
         position: absolute;
-        top: 55%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%,-50%);
         z-index: 10000;
@@ -112,6 +112,70 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+    }
+
+    .part1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2rem 4rem;
+        border-bottom: 0.5rem solid rgb(71, 71, 71);
+        border-top: 0.5rem solid rgb(71, 71, 71);
+    }
+    .part1 .talk{
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .part1 .talk h1{
+        font-size:30px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+    }
+    .part1 .talk p{
+        font-size:18px;
+        font-family: 'Open Sans', sans-serif;  
+        font-weight: 300;
+        padding: 8px 2px;  
+    }
+    .part1 .img{
+        width: 100%;
+    
+    }
+    .part1 .img img{
+        width: 100%;
+    }
+
+    .part2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1rem 2rem;
+    }
+    .part2 .talk{
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .part2 .talk h1{
+        font-size:30px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+    }
+    .part2 .talk p{
+        font-size:18px;
+        font-family: 'Open Sans', sans-serif;  
+        font-weight: 300;
+        padding: 15px ;  
+    }
+    .part2 .img{
+        width: 100%;
+    
+    }
+    .part2 .img img{
+        width: 100%;
     }
     
 }
